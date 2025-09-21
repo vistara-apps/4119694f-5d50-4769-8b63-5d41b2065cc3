@@ -1,16 +1,15 @@
 'use client'
 
 import { Search, Menu, Bell, Wallet } from 'lucide-react'
-import { useMiniKit } from '@coinbase/minikit'
-import { useAuthenticate } from '@coinbase/onchainkit/minikit'
 
 interface HeaderProps {
   onMenuClick: () => void
 }
 
 export function Header({ onMenuClick }: HeaderProps) {
-  const { context } = useMiniKit()
-  const { user } = useAuthenticate()
+  // TODO: Implement user context and authentication hooks
+  const context = { user: { displayName: 'User' } }
+  const user = null
 
   return (
     <header className="bg-surface/80 backdrop-blur-sm border-b border-border px-4 py-3">
