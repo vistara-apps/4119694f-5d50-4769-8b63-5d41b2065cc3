@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "TuneSphere Remix",
+    "subtitle": "Built with Zara",
+    "description": "TuneSphere Remix is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://4119694f5d5047698b635d41b2065cc3-ljy1.vercel.app",
+    "splashImageUrl": "https://4119694f5d5047698b635d41b2065cc3-ljy1.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://4119694f5d5047698b635d41b2065cc3-ljy1.vercel.app/image.png",
+    "tagline": "TuneSphere Remix",
+    "screenshotUrls": [
+      "https://4119694f5d5047698b635d41b2065cc3-ljy1.vercel.app/screenshot.png",
+      "https://4119694f5d5047698b635d41b2065cc3-ljy1.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://4119694f5d5047698b635d41b2065cc3-ljy1.vercel.app/api/webhook"
+  }
+}
